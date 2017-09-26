@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	console.log('DOM loaded - have fun');
-});
-var span = $("span");
+	var span = $("span");
     span.each(function(index, element) {
 });
 span.each(function(index, element) {
@@ -18,4 +16,5 @@ paragraphs.each(function(index, element) {
 });
 $("button").click(function(){
 	alert($(this).attr("data-tmp"));
+});
 });
